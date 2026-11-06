@@ -1,7 +1,7 @@
 /* ==========================================================================
     VARIAVEIS DE CORES - PALETA ROSA PASTEL DA SUAS FOTOS
     Hexadecimal Extratificados:
-    #c999af (Ameixa Mauve Suave / Cor Principal)
+    #f799fa (Ameixa Mauve Suave / Cor Principal)
     #e3b1c8 (Rosa Pastel Médio)
     #fdcae1 (Rosa Bebe Claro)
     #ffe5f0 (Rosa Pastel Off-White)
@@ -12,15 +12,15 @@
     /* Paleta Light Mode (Suave Rosa Pastel) */
     --cor-fundo: #ffe5f0;
     --cor-card: #ffffff;
-    --cor-card-hover: #fdcae1;
+    --cor-card-hover: #8f4188;
     --cor-texto-principal: #4a3340;
     --cor-texto-secundario: #805c6e;
-    --cor-primaria: #c999af;
-    --cor-primaria-escura: #ad7c93;
-    --cor-borda: #fdcae1;
+    --cor-primaria: #8953ad;
+    --cor-primaria-escura: #a973c9;
+    --cor-borda: #722e99;
     --cor-sombra: rgba(201, 153, 175, 0.15);
     
-    --gradiente-suave: linear-gradient(135deg, #c999af 0%, #e3b1c8 100%);
+    --gradiente-suave: linear-gradient(135deg, #f08beb 0%, #8b4fcf 100%);
     --transicao-padrao: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
     --fonte-principal: 'Plus Jakarta Sans', sans-serif;
 }
@@ -31,9 +31,9 @@ body.tema-escuro {
     --cor-card: #261b23;
     --cor-card-hover: #33232f;
     --cor-texto-principal: #ffe5f0;
-    --cor-texto-secundario: #e3b1c8;
-    --cor-primaria: #e3b1c8;
-    --cor-primaria-escura: #fdcae1;
+    --cor-texto-secundario: #5c2958;
+    --cor-primaria: #79467e;
+    --cor-primaria-escura: #b269b4;
     --cor-borda: #452b3b;
     --cor-sombra: rgba(0, 0, 0, 0.35);
 }
@@ -82,7 +82,7 @@ body {
     top: 0;
     left: 0;
     width: 100%;
-    background: rgba(255, 229, 240, 0.85);
+    background: rgba(166, 113, 182, 0.85);
     backdrop-filter: blur(10px);
     z-index: 1000;
     border-bottom: 1px solid var(--cor-borda);
@@ -310,7 +310,7 @@ body.tema-escuro .cabecalho {
 .selo-excelencia {
     display: inline-block;
     padding: 4px 14px;
-    background: #e3b1c8;
+    background: #c776bc;
     color: #fff;
     border-radius: 15px;
     font-size: 0.8rem;
